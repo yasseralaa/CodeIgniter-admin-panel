@@ -1,0 +1,14 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|assets|images|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+RewriteCond %{HTTP_REFERER} !^http://wedian.org/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://wedian.org$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.wedian.org/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.wedian.org$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.admin.wedian.org/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.admin.wedian.org$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://admin.wedian.org/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://admin.wedian.org$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+

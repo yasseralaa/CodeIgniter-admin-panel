@@ -1,0 +1,43 @@
+
+/*
+
+
+  |One file to load them all
+
+*/
+
+@import url("base/reset.css");
+@import url("base/base.css");
+@import url("base/typography.css");
+@import url("image-projection.css");
+
+
+.wrap {
+  position: relative;
+
+  display: block;
+  float: left;
+}
+
+.ip-surface::after {
+  background: rgba(255, 255, 255, .5);
+
+  font-weight: bold;
+  line-height: 3em;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 160px;
+  height: 3em;
+  margin-top: -1.5em;
+  margin-left: -80px;
+
+  content: "Hover me!";
+  text-align: center;
+}
+
+.ip-surface:hover::after {
+  display: none;
+}

@@ -1,0 +1,42 @@
+.navbar-default
+{
+ border-bottom: 5px solid #E0311D;   
+}
+.carousel-indicators li {
+    display: inline-block;
+
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.navbar-brand-centered {
+   
+     background-color: #F8F8F8;
+}
+.navbar
+{
+ margin-bottom: 0;   
+}
+.links
+{
+ font-style: italic;
+    color: darkgray;
+    font-size: 12px;
+}
+.links a
+{
+ font-style: italic;
+color: #E0311D;
+    font-size: 12px;
+}
+
+.top_foot
+{
+    height: auto;
+    color: #adadad ;
+}
+.btn_nl
+{
+    border-radius: 5px;
+    background-color: #E0311D;
+    color: white;
+    border-color: #E0311D;
+}

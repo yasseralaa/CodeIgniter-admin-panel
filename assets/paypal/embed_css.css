@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#product_decription_pre{
+    width: 67%;
+    height:240px;
+    float: right;
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+    margin-top: -1px;
+    overflow: scroll;
+}
+input#show_submit{
+      margin-left: 30px;
+      margin-top: 25px;
+}
+
+.fg-btn.blue:hover {
+background-color: #1cd2ff;
+}
+
+fg-btn, input[type="submit"].fg-btn, input[type="button"].fg-btn {
+font-weight: normal;
+font-family: "proxima_nova_rgregular", sans-serif;
+line-height: 1;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none !important;
+-webkit-font-smoothing: subpixel-antialiased;
+cursor: pointer;
+text-align: center;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+outline: none;
+border-bottom-width: 3px;
+border-bottom-style: solid;
+border-radius: 5px;
+}
+.fg-btn.blue {
+position: relative;
+background-color: #1bc7f2;
+color: white;
+border-bottom-color: #2477bf;
+}
+.fg-btn.inline, .fg-flat-btn.inline {
+display: inline-block;
+margin: auto;
+}
+
+.fg-btn.medium, input[type="submit"].fg-btn.medium, input[type="button"].fg-btn.medium {
+font-size: 15px;
+padding: 11px 26px 9px;
+}
+div#form_container{
+	border: 4px solid rgb(0, 148, 247);
+background: #fff;
+z-index: 3;
+padding: 12px;
+width: 50%;
+min-width: 50%;
+margin:0 auto;
+box-shadow: 0.4em 0.4em 1em rgba(49, 48, 48, 0.68);
+	
+}

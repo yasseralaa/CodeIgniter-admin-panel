@@ -1,0 +1,385 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+.myButton {
+	-moz-box-shadow:inset 0px -9px 13px 0px #e0301d;
+	-webkit-box-shadow:inset 0px -9px 13px 0px #e0301d;
+	box-shadow:inset 0px -9px 13px 0px #e0301d;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e0301d), color-stop(1, #e0301d));
+	background:-moz-linear-gradient(top, #e0301d 5%, #e0301d 100%);
+	background:-webkit-linear-gradient(top, #e0301d 5%, #e0301d 100%);
+	background:-o-linear-gradient(top, #e0301d 5%, #e0301d 100%);
+	background:-ms-linear-gradient(top, #e0301d 5%, #e0301d 100%);
+	background:linear-gradient(to bottom, #e0301d 5%, #e0301d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0301d', endColorstr='#e0301d',GradientType=0);
+	background-color:#e0301d;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #e0301d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:5px 4px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #e0301d;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e0301d), color-stop(1, #e0301d));
+	background:-moz-linear-gradient(top, #e0301d 5%, #e0301d 100%);
+	background:-webkit-linear-gradient(top, #e0301d 5%, #e0301d 100%);
+	background:-o-linear-gradient(top, #e0301d 5%, #e0301d 100%);
+	background:-ms-linear-gradient(top, #e0301d 5%, #e0301d 100%);
+	background:linear-gradient(to bottom, #e0301d 5%, #e0301d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0301d', endColorstr='#e0301d',GradientType=0);
+	background-color:#e0301d;
+    text-decoration: none;
+    color: black;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: #eee;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+}
+body {
+    font: 14px/22px "Lato", Arial, sans-serif;
+    
+  
+}
+
+
+.slide-image {
+    width: 100%;
+    height: 300px;
+}
+.slide-image img
+{
+ height:  100%;  
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+.searchbar
+{
+
+    margin-bottom: 20px;
+   
+    
+}
+
+.input-group
+{
+ width: 100%;   
+    margin-top: 30px;
+}
+
+
+.searchbar .login
+{
+background-color: #F7F7F7;
+    margin-top: 25px;
+   
+    height: 50px
+}
+
+.lighter-text {
+  color: #ABB0BE;
+}
+
+.main-color-text {
+  color: $main-color;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.badge {
+    background-color: #E0311D;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.shopping-cart {
+  margin: 20px 0;
+  float: right;
+  background: white;
+  width: 320px;
+  position: relative;
+  border-radius: 3px;
+  padding: 20px;
+  
+}
+  .shopping-cart-header {
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 15px;
+  }
+    .shopping-cart-total {
+      float: right;
+    }
+ 
+  
+  .shopping-cart-items {
+    
+    padding-top: 20px;
+  }
+
+      li {
+        margin-bottom: 18px;
+      }
+
+    img {
+      float: left;
+      margin-right: 12px;
+    }
+    
+    .item-name {
+      display: block;
+      padding-top: 10px;
+      font-size: 16px;
+    }
+    
+    .item-price {
+      color: $main-color;
+      margin-right: 8px;
+    }
+    
+    .item-quantity {
+      color: $light-text;
+    }
+  }
+   
+}
+
+.shopping-cart:after {
+	bottom: 100%;
+	left: 89%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-bottom-color: white;
+	border-width: 8px;
+	margin-left: -8px;
+}
+
+.cart-icon {
+  color: #515783;
+  font-size: 24px;
+  margin-right: 7px;
+  float: left;
+}
+
+.button {
+  background: $main-color;
+  color:white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 25px 0 15px 0;
+  
+  &:hover {
+    background: lighten($main-color, 3%);
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+       display: block;
+    max-width: 100%;
+    height: 400px; 
+}
+
+.lead
+{
+     margin-top: 31px;   
+}
+
+
+
+
+
+.thumbnail img
+{
+ display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar .brand {
+    max-height: 40px;
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+/*-----footer content*/ 
+footer{
+ background-color: #F5F6F6; 
+    color: #969696;
+    font-weight:300;
+     position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+    margin: 0 0 0 0;
+}
+.foot_content
+{
+ margin-top: 30px;  
+margin-bottom: 50px;  
+    color: #B4B4B4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+ 
+    position: relative;
+}
+.thumbnail .imagee > img, .thumbnail a > img {
+    margin-right: auto;
+    margin-left: auto;
+        display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.imagee .myButton {
+    position:absolute;
+ 
+      top: 94px;
+    left: 6px;
+    display: none;
+}
+.imagee:hover .myButton
+  {
+  display: block;
+  }
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+.top_foot
+{
+ margin-top:60px;   
+}
+.sm{
+ background-color: white;
+    border-color: white;
+}

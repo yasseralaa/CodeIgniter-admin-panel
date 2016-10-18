@@ -1,0 +1,41 @@
+/* This stylesheet is needed for image projection to work */
+
+.ip-surface {
+  position: absolute;
+  z-index: 2;
+
+  display: block;
+
+  width: 100%;
+  height: 100%;
+}
+
+.ip-viewfinder {
+  background: rgba(255,255,255,.5);
+
+  position: absolute;
+  z-index: 3;
+
+  transition: opacity .2s ease-in-out;
+
+  opacity: 0;
+  border: dotted #CCCCCC 1px;
+}
+
+.ip-viewfinder--shown {
+  opacity: 1;
+}
+
+.ip-projection {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+
+  transition: opacity .2s ease-in-out;
+
+  opacity: 0;
+}
+
+.ip-projection--shown {
+  opacity: 1;
+}

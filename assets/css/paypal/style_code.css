@@ -1,0 +1,110 @@
+div#success_msg{
+    display: none;
+    width: 100%;
+    height: 85px;
+    background-color: #18B596;
+    box-shadow: 0.4em 0.4em 1em rgb(190, 190, 190);
+    margin-top: 20px;
+}
+
+div#success_msg h2{
+    color: white;
+    padding: 29px 0 0 36px;
+}
+div#success_msg #btn_con{
+    width: 214px;
+    height: 30px;
+    /* border: 2px solid red; */
+    float: right;
+    margin: -31px 22px 0 0;
+}
+#msg_close{
+    float: right;
+    margin: -56px 0 0 -0;
+    color: white;
+}
+
+
+img#product_img{
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+    width: 100%;   
+}
+div#pop1 h2{
+    font-size:22px !important;
+}
+div#show {
+    width: 30px;
+    height: 30px;
+    background-color: #1D9D73;
+    float: left;
+
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+div#edit {
+    width: 30px;
+    height: 30px;
+    background-color: #FEB63E;
+    float: left;
+    margin-left: 5px;
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+div#delete {
+    width: 30px;
+    height: 30px;
+    background-color: #D9534F;
+    float: left;
+    margin-left: 5px;
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+div#get_code {
+    width: 34%;
+    height: 30px;
+    background-color: rgb(154, 155, 158);
+    float: left;
+    margin-left: 5px;
+    color: #ffffff;
+    font-size: 12px;
+}
+div#table_container{
+
+}
+div#update_form{
+    display: none;
+}
+a#update_close{
+    float: right;
+}
+a#update_close img{
+     width: 20px;
+  height: 20px;
+    margin-top: -3px;
+}
+#product_decription_pre{
+    width: 67%;
+    height:240px;
+    float: right;
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+    margin-top: -1px;
+    overflow: scroll;
+}
+input#show_submit{
+      margin-left: 30px;
+      margin-top: 25px;
+}
+div#code_con{
+width: 100%;
+height: 150px;
+border: 1px solid rgba(128, 128, 128, 0.32);
+padding: 10px;
+margin: 21px 0 0 0;
+  overflow: scroll;
+}
+

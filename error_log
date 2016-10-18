@@ -1,0 +1,4 @@
+[09-May-2016 18:58:43 America/Chicago] PHP Fatal error:  Call to undefined method Billing_model::delete_orders_productsID() in /home3/emira/public_html/admin/application/controllers/admin/categories_admin.php on line 143
+[09-May-2016 18:58:54 America/Chicago] PHP Fatal error:  Call to undefined method Billing_model::delete_orders_productsID() in /home3/emira/public_html/admin/application/controllers/admin/categories_admin.php on line 143
+[12-Jul-2016 11:42:15 America/Chicago] PHP Fatal error:  Call to a member function get_subcategories() on a non-object in /home3/emira/public_html/admin/application/controllers/admin/subcategories_admin.php on line 17
+[12-Jul-2016 11:45:20 America/Chicago] PHP Fatal error:  Call to undefined method Product_model::delete_productssubCategoryID() in /home3/emira/public_html/admin/application/controllers/admin/subcategories_admin.php on line 88
